@@ -3,8 +3,7 @@ import { Component, input } from '@angular/core';
 @Component({
   selector: 'app-card-product',
   imports: [],
-  templateUrl: './card-product.html',
-  styleUrl: './card-product.css',
+  templateUrl: './card-product.html'
 })
 export class CardProduct {
   postUrl = input<string>()
